@@ -7,12 +7,12 @@ curl -X POST $1 \
 			"color": 3447003,
 			"fields": [
 				{
-					"name": "Event",
-					"value": "${sonarr_eventtype}"
-				},
-				{
 					"name": "Series",
 					"value": "${sonarr_series_title}"
+				},
+				{
+					"name": "Event",
+					"value": "${sonarr_eventtype}"
 				},
 				{
 					"name": "Episode(s)",
